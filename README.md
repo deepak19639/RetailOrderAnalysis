@@ -1,5 +1,3 @@
-# Create README.md file in Colab
-readme_content = """
 # 📊 Retail Order Analysis – PySpark Project
 
 ## 📌 Project Overview
@@ -64,6 +62,8 @@ with open("README.md", "w") as f:
     f.write(readme_content)
 ```
 # Download file in Colab
-from google.colab import files
+```from google.colab import files
 files.download("README.md")
+```
+
 
