@@ -34,10 +34,12 @@ The goal of this project is to **clean, transform, and analyze** the data to ans
    - Time Analysis: Monthly revenue trend, Daily/Weekly sales patterns
 
 ## 📂 Project Structure
+```
 Retail-Order-Analysis/
 │── data/OnlineRetail.csv
 │── notebooks/retail_analysis.ipynb
 │── README.md
+```
 
 ## 🚀 How to Run
 1. Clone this repo:
@@ -57,9 +59,11 @@ Retail-Order-Analysis/
 """
 
 # Write to README.md
+```
 with open("README.md", "w") as f:
     f.write(readme_content)
-
+```
 # Download file in Colab
 from google.colab import files
 files.download("README.md")
+
