@@ -56,16 +56,6 @@ Retail-Order-Analysis/
 ✍️ Author: Deepak Kumar
 """
 
-# Write to README.md
-```
-with open("README.md", "w") as f:
-    f.write(readme_content)
-```
-# Download file in Colab
-```
-from google.colab import files
-files.download("README.md")
-```
 
 
 
